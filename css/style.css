@@ -31,23 +31,6 @@ body {
     width: 70px;
 }
 
-.dinoActive {
-    animation: animateDino 0.5s linear infinite;
-}
-
-@keyframes animateDino {
-
-    0%,
-    100% {
-        bottom: 28px;
-    }
-
-    45%,
-    55% {
-        bottom: 160px;
-    }
-}
-
 #container #block {
     height: 80px;
     width: 125px;
@@ -59,20 +42,6 @@ body {
 #container #block img {
     height: 80px;
     width: 125px;
-}
-
-.blockActive {
-    animation: blockAnimate 1s linear infinite;
-}
-
-@keyframes blockAnimate {
-    0% {
-        right: -125px;
-    }
-
-    100% {
-        right: 100%;
-    }
 }
 
 #container #road {
@@ -90,16 +59,6 @@ body {
     animation: none;
 }
 
-@keyframes roadAnimate {
-    0% {
-        left: 0;
-    }
-
-    100% {
-        left: -800px;
-    }
-}
-
 #container #cloud {
     height: 80px;
     width: 1200px;
@@ -114,16 +73,6 @@ body {
     position: absolute;
     left: -2000px;
     animation: none;
-}
-
-@keyframes cloudAnimate {
-    0% {
-        left: -2000px;
-    }
-
-    100% {
-        left: 100%;
-    }
 }
 
 #score {
